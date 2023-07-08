@@ -1,0 +1,43 @@
+*{
+    
+    /* padding: 0px; */
+    margin: 10px;
+
+  }
+    html{
+        background-color: blanchedalmond;
+    }
+    
+    .chapter{
+     
+      display:flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-top: 8px;
+      border:2px solid black;
+      border-radius: 13px;
+      justify-content: center;
+      align-content: center;
+     
+    }
+    a{
+      text-decoration: none;
+      color:blue;
+    }
+    #heading
+    {
+      text-align: center;
+    }
+    span{
+      color:midnightblue;
+    }
+   @media (min-width:240px) and (max-width:500px){
+      .chapter{
+        font-size: 1rem;
+      }
+      br{
+        display:none;
+      }
+     
+      }
+   
